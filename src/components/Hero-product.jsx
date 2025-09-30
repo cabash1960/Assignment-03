@@ -3,15 +3,15 @@ import "../index.css"; // keep your CSS import
 
 function HeroProduct({
   title = "Samurai King Resting",
-  imageSrc = "src/assets/images/Group 44 (1).png",
+  imageSrc = "./public/images/Group 44 (1).png",
   description = "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part ofCicero's De Finibus in order to provide placeholder text to mockupvarious fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.So how did the classical Latin become so incoherent? According to McClintock.",
   size = "1020 x 1020",
   category = "Pets",
 }) {
   const productImg = [
-    "src/assets/images/Rectangle 10.png",
-    "src/assets/images/Rectangle 10.1.png",
-    "src/assets/images/Rectangle 10.2.png",
+    "./public/images/Rectangle 10.png",
+    "./public/images/Rectangle 10.1.png",
+    "./public/images/Rectangle 10.2.png",
   ];
   return (
     <div>
