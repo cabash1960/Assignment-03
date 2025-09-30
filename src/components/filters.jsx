@@ -1,16 +1,17 @@
 import React from "react";
 import "../index.css";
-const Filters = ({ onToggleMenu }) => {
-  // const handleMenuClick = () => {
-  //   if (onToggleMenu) {
-  //     onToggleMenu();
-  //   }
-  // };
+
+const Filters = ({ onCloseToggleMenu, value, ref }) => {
+  const handleCloseToggleMenu = () => {
+    onCloseToggleMenu();
+    console.log(value);
+  };
 
   return (
-    <aside className="photo-categories ">
+    <aside ref={ref} className="photo-categories">
       <div className="filter category-filter">
         <h3>Category</h3>
+        <button onClick={handleCloseToggleMenu} className="toggle"></button>
         <ul>
           <li>
             <input type="checkbox" /> People

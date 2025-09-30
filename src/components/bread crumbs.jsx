@@ -1,6 +1,10 @@
 import React from "react";
 
 function Crumbs({ onToggleMenu }) {
+  function handleToggleMenu() {
+    onToggleMenu();
+    console.log("clicked");
+  }
   return (
     <div className="photo-heading">
       <h2>
@@ -13,7 +17,7 @@ function Crumbs({ onToggleMenu }) {
           <option>Price</option>
         </select>
       </div>
-      <button onClick={() => onToggleMenu()} className="bugger-icon">
+      <button onClick={handleToggleMenu} className="bugger-icon">
         <img src="/images/Group 31.png" alt="hand-bugger" />
       </button>
     </div>

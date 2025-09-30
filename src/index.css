@@ -551,11 +551,12 @@ section {
     transition: all 0.3s ease-in-out;
   }
 
-  .photo-categories.hidden {
+  .photo-categories.active {
     opacity: 1;
     visibility: visible;
+    overflow-y: auto;
   }
-  .photo-categories.hidden .toggle::before {
+  .photo-categories.active .toggle::before {
     content: "\2716";
     top: 3%;
     right: 5%;
