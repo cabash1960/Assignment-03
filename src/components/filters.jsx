@@ -1,11 +1,11 @@
 import React from "react";
 import "../index.css";
 const Filters = ({ onToggleMenu }) => {
-  const handleMenuClick = () => {
-    if (onToggleMenu) {
-      onToggleMenu();
-    }
-  };
+  // const handleMenuClick = () => {
+  //   if (onToggleMenu) {
+  //     onToggleMenu();
+  //   }
+  // };
 
   return (
     <aside className="photo-categories ">
