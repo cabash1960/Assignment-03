@@ -22,7 +22,7 @@ function ProductGrid() {
       title: "Architecture",
       category: "Landmarks",
       price: 101.0,
-      img: "./public/images/Rectangle 10.1.png",
+      img: "/images/Rectangle 10.1.png",
     },
     {
       id: 4,
