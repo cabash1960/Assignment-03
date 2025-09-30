@@ -5,12 +5,12 @@ function Header() {
   return (
     <header>
       <div class="nav">
-        <img src="/images/Group 12.png" alt="logo" />
+        <img src="/public/images/Group 12.png" alt="logo" />
         <nav class="nav-links">
           <ul>
             <li>
               <a href="#">
-                <img src="/images/Group 3.1.png" alt="cart-img" />
+                <img src="/public/images/Group 3.1.png" alt="cart-img" />
               </a>
             </li>
           </ul>
