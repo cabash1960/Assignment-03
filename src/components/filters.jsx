@@ -8,11 +8,7 @@ const Filters = ({ onToggleMenu }) => {
   };
 
   return (
-    <aside
-      className={
-        handleMenuClick() ? "photo-categories " : "photo-categories hidden"
-      }
-    >
+    <aside className="photo-categories ">
       <div className="filter category-filter">
         <h3>Category</h3>
         <ul>

@@ -14,7 +14,7 @@ function Crumbs({ onToggleMenu }) {
         </select>
       </div>
       <button onClick={() => onToggleMenu()} className="bugger-icon">
-        <img src="./public/images/Group 31.png" alt="hand-bugger" />
+        <img src="/images/Group 31.png" alt="hand-bugger" />
       </button>
     </div>
   );

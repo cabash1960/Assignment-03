@@ -9,9 +9,9 @@ function HeroProduct({
   category = "Pets",
 }) {
   const productImg = [
-    "./public/images/Rectangle 10.png",
-    "./public/images/Rectangle 10.1.png",
-    "./public/images/Rectangle 10.2.png",
+    "/images/Rectangle 10.png",
+    "/images/Rectangle 10.1.png",
+    "/images/Rectangle 10.2.png",
   ];
   return (
     <div>

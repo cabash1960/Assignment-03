@@ -8,14 +8,14 @@ function ProductGrid() {
       title: "Red Bench",
       category: "People",
       price: 3.89,
-      img: "./public/images/Rectangle 10.2.png",
+      img: "/images/Rectangle 10.2.png",
     },
     {
       id: 2,
       title: "Egg Balloon",
       category: "Food",
       price: 93.89,
-      img: "./public/images/Rectangle 10.png",
+      img: "/images/Rectangle 10.png",
     },
     {
       id: 3,
@@ -29,21 +29,21 @@ function ProductGrid() {
       title: "Architecture",
       category: "Landmarks",
       price: 101.0,
-      img: "./public/images/Rectangle 10.2.png",
+      img: "/images/Rectangle 10.2.png",
     },
     {
       id: 5,
       title: "Architecture",
       category: "Landmarks",
       price: 101.0,
-      img: "./public/images/Rectangle 10.png",
+      img: "/images/Rectangle 10.png",
     },
     {
       id: 6,
       title: "Architecture",
       category: "Landmarks",
       price: 101.0,
-      img: "./public/images/Rectangle 10.1.png",
+      img: "/images/Rectangle 10.1.png",
     },
   ];
 
